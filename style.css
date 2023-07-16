@@ -1,10 +1,11 @@
 body {
     background: rgb(240, 240, 240);
     color: rgb(20, 20, 20);
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 h1 {
-    font-family: Courier;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     color: red;
 }
@@ -18,4 +19,36 @@ a {
 a:hover {
     text-decoration: none;
     color: green;
+}
+#banner {
+    background-image: url("https://picsum.photos/1000/600?random");
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+#banner h1 {
+    color: white;
+}
+#banner p {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.my-card {
+    pad: 50px;
+    text-align: center;
+}
+#footer {
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+#footer a {
+    font-size: 20px;
+    color: grey;
+}
+#footer a:hover {
+    color: white;
 }
