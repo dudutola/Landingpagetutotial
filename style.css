@@ -21,7 +21,7 @@ a:hover {
     color: green;
 }
 #banner {
-    background-image: url("https://picsum.photos/1000/600?random");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://picsum.photos/1000/600?random");
     background-size: cover;
     padding: 150px 0;
     text-align: center;
@@ -36,7 +36,7 @@ a:hover {
     font-weight: lighter;
 }
 .my-card {
-    pad: 50px;
+    padding: 50px;
     text-align: center;
 }
 #footer {
